@@ -17,14 +17,14 @@ int main()
 
     //Declare the operation function 
 
-    printf("Select the Operation\n");
-    printf("Type + for Addition\n");
-    printf("Type - for Subtraction\n");
-    printf("Type * for Multiplication\n");
-    printf("Type / for Division\n");
-    scanf_s("%c", &ch);
-    printf("Enter any two numbers\n");
-    scanf_s("%d%d", &a, &b);
+    printf("Select the Operation\n"); // Ask the user what function they would like to use
+    printf("Type + for Addition\n"); // Is it addition
+    printf("Type - for Subtraction\n"); // is it subtraction
+    printf("Type * for Multiplication\n"); // is it multiplication
+    printf("Type / for Division\n"); // is it division
+    scanf_s("%c", &ch); // take the users input and then procced to the next step
+    printf("Enter any two numbers\n"); // ask user to pick two numbers
+    scanf_s("%d%d", &a, &b); // take the numbers and now calculate 
     switch (ch)
     {
     case '+':
