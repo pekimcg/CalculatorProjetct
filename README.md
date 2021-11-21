@@ -1,5 +1,4 @@
-Craig McGuinness
-11.21.21
+
 App Release 2 
 
 Overview - 
